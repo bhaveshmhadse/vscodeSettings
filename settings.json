@@ -1,0 +1,280 @@
+{
+    "editor.fontLigatures": "'ss01','ss02','ss03','ss04','ss05','ss06','ss07','zero','onum'",
+    "editor.cursorBlinking": "smooth",
+    "files.trimFinalNewlines": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "prettier.arrowParens": "avoid",
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "code-runner.executorMap": {
+        "javascript": "node $fileName",
+        "typescript": "tsc && node $fileNameWithoutExt.js",
+        "java": "javac $fileName && java $fileNameWithoutExt",
+        "c": "gcc $fileName -o $fileNameWithoutExt && $fileNameWithoutExt",
+        "cpp": "g++ $fileName -o $fileNameWithoutExt && $fileNameWithoutExt",
+        "python": "python $fileName",
+        "go": "go run $fileName",
+    },
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.clearPreviousOutput": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Jedi",
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "zenMode.centerLayout": false,
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle : Google, IndentWidth : 4, ColumnLimit : 0 }",
+    "search.sortOrder": "type",
+    "workbench.iconTheme": "material-icon-theme",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorCustomizations": {
+        "terminal.ansiBlack": "#1D2021",
+        "terminal.ansiBrightBlack": "#665C54",
+        "terminal.ansiBrightBlue": "#0D6678",
+        "terminal.ansiBrightCyan": "#8BA59B",
+        "terminal.ansiBrightGreen": "#237e02",
+        "terminal.ansiBrightMagenta": "#8F4673",
+        "terminal.ansiBrightRed": "#f73920",
+        "terminal.ansiBrightWhite": "#FDF4C1",
+        "terminal.ansiBrightYellow": "#f7b419",
+        "terminal.ansiBlue": "#00a1f9",
+        "terminal.ansiCyan": "#8BA59B",
+        "terminal.ansiGreen": "#65ce3f",
+        "terminal.ansiMagenta": "#8F4673",
+        "terminal.ansiRed": "#dd5543",
+        "terminal.ansiWhite": "#A89984",
+        "terminal.ansiYellow": "#fae43b",
+        // "[Community Material Theme Ocean]": {
+        //     "editor.background": "#252931"
+        "[Atom One Dark]": {
+            "editor.background": "#20232b"
+        },
+        // },
+        "[Dracula]": {
+            "editor.background": "#20232b",
+            // "activityBar.activeBackground": "#ff0000"
+            "sideBar.background": "#19161d",
+            "activityBarBadge.background": "#ffee00",
+            "activityBarBadge.foreground": "#141218",
+            "activityBar.inactiveForeground": "#555555",
+            "activityBar.background": "#141218",
+            // "activityBar.foreground": "#ffff",
+            // "activityBarBadge.foreground": "#ffff"
+            // "editor.background": "#2c303a"
+        }
+    },
+    "explorer.sortOrder": "type",
+    "C_Cpp.vcFormat.space.beforeFunctionOpenParenthesis": "insert",
+    "C_Cpp.updateChannel": "Insiders",
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.errorSquiggles": "Enabled",
+    "C_Cpp.default.intelliSenseMode": "msvc-x64",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.profiles.windows": {
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+    },
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Fira Code",
+    // "editor.fontFamily": "DejaVu Serif Condensed",
+    "code-runner.runInTerminal": true,
+    "quokka.automaticRestart": true,
+    "editor.formatOnSave": true,
+    "prettier.jsxBracketSameLine": true,
+    "material-icon-theme.folders.color": "#42a5f5",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "breadcrumbs.enabled": false,
+    "javascript.format.enable": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "javascript.preferences.quoteStyle": "single",
+    "codesnap.boxShadow": "10px 10px 15px grey",
+    "codesnap.backgroundColor": "transparent",
+    "codesnap.containerPadding": "2em",
+    "codesnap.showLineNumbers": false,
+    "prettier.printWidth": 2000,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "codesnap.transparentBackground": true,
+    "window.zoomLevel": -1,
+    "git.enabled": false,
+    "tabnine.experimentalAutoImports": true,
+    "editor.detectIndentation": false,
+    "terminal.integrated.fontFamily": "Ubuntu Mono",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.letterSpacing": 1,
+    "terminal.integrated.fontWeight": "100",
+    "editor.rename.enablePreview": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.colorTheme": "Atom One Dark",
+}
+// {
+//     // "editor.fontLigatures": "'ss01','ss02','ss03','ss04','ss05','ss06','ss07','zero','onum'",
+//     "editor.cursorBlinking": "smooth",
+//     "files.trimFinalNewlines": true,
+//     "workbench.editor.highlightModifiedTabs": true,
+//     "prettier.arrowParens": "avoid",
+//     "prettier.jsxSingleQuote": true,
+//     "prettier.singleQuote": true,
+//     "code-runner.executorMap": {
+//         "javascript": "node $fileName",
+//         "typescript": "tsc && node $fileNameWithoutExt.js",
+//         "java": "javac $fileName && java $fileNameWithoutExt",
+//         "c": "gcc $fileName -o $fileNameWithoutExt && $fileNameWithoutExt",
+//         "cpp": "g++ $fileName -o $fileNameWithoutExt && $fileNameWithoutExt",
+//         "python": "python $fileName",
+//         "go": "go run $fileName",
+//     },
+//     "code-runner.saveFileBeforeRun": true,
+//     "code-runner.clearPreviousOutput": true,
+//     "editor.suggestSelection": "first",
+//     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+//     "python.languageServer": "Jedi",
+//     "[java]": {
+//         "editor.defaultFormatter": "redhat.java"
+//     },
+//     "[javascript]": {
+//         "editor.defaultFormatter": "esbenp.prettier-vscode"
+//     },
+//     "[html]": {
+//         "editor.defaultFormatter": "esbenp.prettier-vscode"
+//     },
+//     "[cpp]": {
+//         "editor.defaultFormatter": "ms-vscode.cpptools"
+//     },
+//     "[jsonc]": {
+//         "editor.defaultFormatter": "vscode.json-language-features"
+//     },
+//     "liveServer.settings.donotShowInfoMsg": true,
+//     "[javascriptreact]": {
+//         "editor.defaultFormatter": "esbenp.prettier-vscode"
+//     },
+//     "zenMode.centerLayout": false,
+//     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle : Google, IndentWidth : 4, ColumnLimit : 0 }",
+//     "search.sortOrder": "type",
+//     "workbench.iconTheme": "material-icon-theme",
+//     "[typescript]": {
+//         "editor.defaultFormatter": "esbenp.prettier-vscode"
+//     },
+//     "workbench.colorCustomizations": {
+//         "terminal.ansiBlack": "#1D2021",
+//         "terminal.ansiBrightBlack": "#665C54",
+//         "terminal.ansiBrightBlue": "#0D6678",
+//         "terminal.ansiBrightCyan": "#8BA59B",
+//         "terminal.ansiBrightGreen": "#237e02",
+//         "terminal.ansiBrightMagenta": "#8F4673",
+//         "terminal.ansiBrightRed": "#f73920",
+//         "terminal.ansiBrightWhite": "#FDF4C1",
+//         "terminal.ansiBrightYellow": "#f7b419",
+//         "terminal.ansiBlue": "#00a1f9",
+//         "terminal.ansiCyan": "#8BA59B",
+//         "terminal.ansiGreen": "#5cce33",
+//         "terminal.ansiMagenta": "#ff40b6",
+//         "terminal.ansiRed": "#dd5543",
+//         "terminal.ansiWhite": "#A89984",
+//         "terminal.ansiYellow": "#fae43b",
+//         "[Ayu Mirage]": {
+//             "editor.foreground": "#ffffff",
+//             "editor.lineHighlightBackground": "#292931",
+//             "foreground": "#ffffffd5",
+//             "menu.selectionForeground": "#000000",
+//             "menu.foreground": "#ffffff9e",
+//             "tab.inactiveForeground": "#ffffff74",
+//             "tab.activeForeground": "#ffffff",
+//             "editor.wordHighlightBorder": "#070709",
+//             "editor.wordHighlightBackground": "#464444",
+//             "menu.selectionBackground": "#8b9fa0e7",
+//             "sideBar.foreground": "#ffffff",
+//             "sideBarSectionHeader.foreground": "#a2a2a2"
+//         }
+//     },
+//     "explorer.sortOrder": "type",
+//     "workbench.editorAssociations": {
+//         "*.ipynb": "jupyter-notebook"
+//     },
+//     "C_Cpp.vcFormat.space.beforeFunctionOpenParenthesis": "insert",
+//     "C_Cpp.updateChannel": "Insiders",
+//     "C_Cpp.default.cppStandard": "c++20",
+//     "C_Cpp.errorSquiggles": "Enabled",
+//     "C_Cpp.default.intelliSenseMode": "msvc-x64",
+//     "terminal.integrated.profiles.windows": {
+//         "Command Prompt": {
+//             "path": [
+//                 "${env:windir}\\Sysnative\\cmd.exe",
+//                 "${env:windir}\\System32\\cmd.exe"
+//             ],
+//             "args": [],
+//             "icon": "terminal-cmd"
+//         },
+//         "Git Bash": {
+//             "source": "Git Bash"
+//         },
+//         "JavaScript Debug Terminal": {
+//             "extensionIdentifier": "ms-vscode.js-debug",
+//             "icon": "debug",
+//             "id": "extension.js-debug.debugTerminal",
+//             "title": "JavaScript Debug Terminal"
+//         }
+//     },
+//     "editor.fontSize": 16,
+//     "editor.fontFamily": "Fira Code",
+//     "editor.fontLigatures": true,
+//     "quokka.automaticRestart": true,
+//     "editor.formatOnSave": true,
+//     "prettier.jsxBracketSameLine": true,
+//     "material-icon-theme.folders.color": "#42a5f5",
+//     "notebook.cellToolbarLocation": {
+//         "default": "right",
+//         "jupyter-notebook": "left"
+//     },
+//     "breadcrumbs.enabled": false,
+//     "javascript.format.enable": false,
+//     "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+//     "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+//     "javascript.preferences.quoteStyle": "single",
+//     "codesnap.boxShadow": "10px 10px 15px grey",
+//     "codesnap.backgroundColor": "transparent",
+//     "codesnap.containerPadding": "2em",
+//     "codesnap.showLineNumbers": false,
+//     "prettier.printWidth": 120,
+//     "javascript.updateImportsOnFileMove.enabled": "always",
+//     "codesnap.transparentBackground": true,
+//     "window.zoomLevel": -1,
+//     "git.enabled": false,
+//     "tabnine.experimentalAutoImports": true,
+//     "editor.detectIndentation": false,
+//     "terminal.integrated.fontFamily": "Ubuntu Mono",
+//     "terminal.integrated.fontSize": 16,
+//     "terminal.integrated.letterSpacing": 1,
+//     "terminal.integrated.fontWeight": "100",
+//     "workbench.colorTheme": "Dracula",
+//     // "terminal.integrated.defaultProfile.windows": "Command Prompt",
+//     "code-runner.runInTerminal": true,
+// }
