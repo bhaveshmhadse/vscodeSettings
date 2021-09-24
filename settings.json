@@ -1,17 +1,18 @@
 {
     "editor.fontLigatures": "'ss01','ss02','ss03','ss04','ss05','ss06','ss07','zero','onum'",
     "editor.cursorBlinking": "smooth",
+    "editor.smoothScrolling": true,
+    "editor.minimap.size": "proportional",
     "files.trimFinalNewlines": true,
     "workbench.editor.highlightModifiedTabs": true,
     "prettier.arrowParens": "avoid",
     "prettier.jsxSingleQuote": true,
-    "prettier.singleQuote": true,
     "code-runner.executorMap": {
         "javascript": "node $fileName",
         "typescript": "tsc && node $fileNameWithoutExt.js",
         "java": "javac $fileName && java $fileNameWithoutExt",
-        "c": "gcc $fileName -o $fileNameWithoutExt && $fileNameWithoutExt",
-        "cpp": "g++ $fileName -o $fileNameWithoutExt && $fileNameWithoutExt",
+        "c": "gcc $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt",
+        "cpp": "g++ $fileName -o $fileNameWithoutExt.exe && ./$fileNameWithoutExt.exe",
         "python": "python $fileName",
         "go": "go run $fileName",
     },
@@ -63,42 +64,67 @@
         "terminal.ansiRed": "#dd5543",
         "terminal.ansiWhite": "#A89984",
         "terminal.ansiYellow": "#fae43b",
-        // "[Community Material Theme Ocean]": {
-        //     "editor.background": "#252931"
+        "[Community Material Theme Ocean]": {
+            "sideBar.foreground": "#929292",
+            "tab.inactiveForeground": "#b1b1b1",
+            "activityBarBadge.foreground": "#141218",
+            "activityBar.foreground": "#e9e9e9",
+            "activityBar.background": "#26222d",
+            "sideBarSectionHeader.background": "#26222d",
+            "sideBarSectionHeader.foreground": "#c9c9c9",
+            "tab.activeBackground": "#211e28",
+            "tab.border": "#000000"
+        },
         "[Atom One Dark]": {
             "editor.background": "#20232b"
         },
-        // },
         "[Dracula]": {
             "editor.background": "#20232b",
-            // "activityBar.activeBackground": "#ff0000"
             "sideBar.background": "#19161d",
             "activityBarBadge.background": "#ffee00",
             "activityBarBadge.foreground": "#141218",
             "activityBar.inactiveForeground": "#555555",
-            "activityBar.background": "#141218",
-            // "activityBar.foreground": "#ffff",
-            // "activityBarBadge.foreground": "#ffff"
-            // "editor.background": "#2c303a"
+            "activityBar.background": "#141218"
+        },
+        "[Material Theme Ocean]": {
+            "activityBarBadge.background": "#FFA000",
+            "activityBar.activeBorder": "#FFA000",
+            "list.activeSelectionForeground": "#FFA000",
+            "list.inactiveSelectionForeground": "#FFA000",
+            "list.highlightForeground": "#FFA000",
+            "scrollbarSlider.activeBackground": "#FFA00050",
+            "editorSuggestWidget.highlightForeground": "#FFA000",
+            "textLink.foreground": "#FFA000",
+            "progressBar.background": "#FFA000",
+            "pickerGroup.foreground": "#FFA000",
+            "tab.activeBorder": "#FFA000",
+            "notificationLink.foreground": "#FFA000",
+            "editorWidget.resizeBorder": "#FFA000",
+            "editorWidget.border": "#FFA000",
+            "settings.modifiedItemIndicator": "#FFA000",
+            "settings.headerForeground": "#FFA000",
+            "panelTitle.activeBorder": "#FFA000",
+            "breadcrumb.activeSelectionForeground": "#FFA000",
+            "menu.selectionForeground": "#FFA000",
+            "menubar.selectionForeground": "#FFA000",
+            "editor.findMatchBorder": "#FFA000",
+            "selection.background": "#FFA00040",
+            "statusBarItem.remoteBackground": "#FFA000"
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Community Material Theme Ocean]": {
+            "comments": "#4d4d4d",
         }
     },
     "explorer.sortOrder": "type",
+    // "editor.bracketPairColorization.enabled": true,
     "C_Cpp.vcFormat.space.beforeFunctionOpenParenthesis": "insert",
     "C_Cpp.updateChannel": "Insiders",
     "C_Cpp.default.cppStandard": "c++20",
     "C_Cpp.errorSquiggles": "Enabled",
     "C_Cpp.default.intelliSenseMode": "msvc-x64",
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
-    "terminal.integrated.profiles.windows": {
-        "Command Prompt": {
-            "path": [
-                "${env:windir}\\Sysnative\\cmd.exe",
-                "${env:windir}\\System32\\cmd.exe"
-            ],
-            "args": [],
-            "icon": "terminal-cmd"
-        },
-    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
     "editor.fontSize": 16,
     "editor.fontFamily": "Fira Code",
     // "editor.fontFamily": "DejaVu Serif Condensed",
@@ -120,10 +146,8 @@
     "codesnap.backgroundColor": "transparent",
     "codesnap.containerPadding": "2em",
     "codesnap.showLineNumbers": false,
-    "prettier.printWidth": 2000,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "codesnap.transparentBackground": true,
-    "window.zoomLevel": -1,
     "git.enabled": false,
     "tabnine.experimentalAutoImports": true,
     "editor.detectIndentation": false,
@@ -133,7 +157,23 @@
     "terminal.integrated.fontWeight": "100",
     "editor.rename.enablePreview": false,
     "workbench.editor.enablePreview": false,
-    "workbench.colorTheme": "Atom One Dark",
+    "workbench.colorTheme": "Community Material Theme Ocean",
+    "material-icon-theme.folders.theme": "classic",
+    "materialTheme.accent": "Yellow",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "python.formatting.provider": "black",
+    "window.zoomLevel": -1,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.printWidth": 2000,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.productIconTheme": "material-product-icons",
+    // "workbench.colorTheme": "Material Theme Ocean",
 }
 // {
 //     // "editor.fontLigatures": "'ss01','ss02','ss03','ss04','ss05','ss06','ss07','zero','onum'",
