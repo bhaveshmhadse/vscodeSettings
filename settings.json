@@ -5,9 +5,9 @@
     "C_Cpp.default.intelliSenseMode": "msvc-x64",
     "C_Cpp.vcFormat.space.beforeFunctionOpenParenthesis": "insert",
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle : Google, IndentWidth : 4, ColumnLimit : 0 }",
-    "[cpp]": {
-        "editor.defaultFormatter": "ms-vscode.cpptools"
-    },
+    // "[cpp]": {
+    //     "editor.defaultFormatter": "ms-vscode.cpptools"
+    // },
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -16,6 +16,9 @@
     },
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
@@ -82,30 +85,14 @@
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.fontWeight": 100,
     "terminal.integrated.letterSpacing": 1,
-    "terminal.integrated.fontFamily": "Ubuntu Mono",
+    // "terminal.integrated.fontFamily": "Ubuntu Mono",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "window.zoomLevel": -1,
     "workbench.editor.enablePreview": false,
-    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.productIconTheme": "material-product-icons",
     "workbench.colorCustomizations": {
-        "terminal.ansiBlack": "#1D2021",
-        "terminal.ansiBrightBlack": "#665C54",
-        "terminal.ansiBrightBlue": "#0D6678",
-        "terminal.ansiBrightCyan": "#8BA59B",
-        "terminal.ansiBrightGreen": "#237e02",
-        "terminal.ansiBrightMagenta": "#8F4673",
-        "terminal.ansiBrightRed": "#f73920",
-        "terminal.ansiBrightWhite": "#FDF4C1",
-        "terminal.ansiBrightYellow": "#f7b419",
-        "terminal.ansiBlue": "#00a1f9",
-        "terminal.ansiCyan": "#8BA59B",
-        "terminal.ansiGreen": "#65ce3f",
-        "terminal.ansiMagenta": "#bb448e",
-        "terminal.ansiRed": "#dd5543",
-        "terminal.ansiWhite": "#A89984",
-        "terminal.ansiYellow": "#fae43b",
         "[Community Material Theme Ocean]": {
             "sideBar.foreground": "#929292",
             "tab.inactiveForeground": "#b1b1b1",
@@ -133,8 +120,33 @@
             "panelTitle.inactiveForeground": "#7d8cae",
             "sideBar.background": "#19161d",
             "terminal.background": "#20232b"
-        }
+        },
+        // "terminal.ansiBlack": "#1D2021",
+        // "terminal.ansiBrightBlack": "#665C54",
+        // "terminal.ansiBrightBlue": "#0D6678",
+        // "terminal.ansiBrightCyan": "#8BA59B",
+        // "terminal.ansiBrightGreen": "#237e02",
+        // "terminal.ansiBrightMagenta": "#8F4673",
+        // "terminal.ansiBrightRed": "#f73920",
+        // "terminal.ansiBrightWhite": "#FDF4C1",
+        // "terminal.ansiBrightYellow": "#f7b419",
+        // "terminal.ansiBlue": "#063b57",
+        // "terminal.ansiCyan": "#8BA59B",
+        // "terminal.ansiGreen": "#65ce3f",
+        // "terminal.ansiMagenta": "#bb448e",
+        // "terminal.ansiRed": "#dd5543",
+        // "terminal.ansiWhite": "#A89984",
+        // "terminal.ansiYellow": "#fae43b",
     },
-    "zenMode.centerLayout": false
+    "workbench.colorTheme": "Dracula",
+    "window.zoomLevel": -1,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
 }
-// Window OS
